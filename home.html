@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    
+    <title>QUESTIONS</title>
+    <link type = "text/css" rel = "stylesheet" href = "homestyle.css">
+    
+    <meta charset="UTF-8">
+  <meta name="description" content="Question papers">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Yobah Bertrand YOnkou">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type = "text/javascript">
+    function onclick()
+    {
+        var searchVal = getElementById('box').value
+        
+        if(searchVal == '')
+            {
+                alert('Please enter a search term');
+                return false;
+            }
+            else
+                {
+                    return true;
+                }
+    }
+</script>
+    
+</head>
+    
+<body>
+    
+    <div id = "main_container">
+        <div id = "header">
+            
+            <!--header-->
+            <h1>CHRIST UNIVERSITY MID-SEM & CIA QUESTIONS</h1>
+        </div>
+        
+        <!--body-->
+        <div id = "body">
+            <!--links/middle-->
+            <div class = "link">
+            <div onClick = 'oncick();' class = "links">SEARCH<br>
+                <input id = "box" type = "text" placeholder = "Enter Course"></div><br>
+            <div class = "links">MID SEM <br>
+                <input type = "text" placeholder = "Enter Subject"></div><br>
+            <div class = "links">CIA <br>
+                <input type = "text" placeholder = "Enter Subject"></div><br>
+            <div class = "links">END SEM
+                <br>
+                <input type = "text" placeholder = "Enter Subject"></div><br>
+            <div class = "links">About the Author</div>
+            </div>
+        </div><br>
+        
+        <!--footer-->
+        <div id = "footer">
+            <TT>Website By:</TT> <strong>B.M.B Corporations</strong>
+           <i>Copywrite</i>  &copy;  2020
+        </div>
+    </div>
+
+</body>
+</html>
