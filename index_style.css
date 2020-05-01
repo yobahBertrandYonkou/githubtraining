@@ -1,0 +1,109 @@
+body
+{
+    background-color: deeppink;
+}
+
+ul
+{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    font-family: arial;
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+li a:hover
+{
+    background-color: #00FFCC;
+    color: black;
+}
+
+#topnav
+{
+    background-color: black;
+    height: 48px
+}
+
+#attendance
+{
+    
+    float: right;
+    width:5%;
+    height: 88%;
+    background-color: black;
+    color: lawngreen;
+    font-size: 20px;
+    font-family: arial black;
+    text-align: center;
+    border: none;
+}
+
+#userid
+{
+    float:right;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 88%;
+    width: 10%;
+    font-family: arial black;
+    font-size: 18px;
+}
+#leftpanel
+{
+    background-color: #F5F5DC;
+    position: fixed;
+    float:left;
+    height: 80vh;
+    width: 18%;
+    overflow: auto;
+}
+
+#content
+{   
+    background-color: #F5F5DC;
+    margin-top: 10px;
+    margin-left:19%;
+    height:77vh;
+    padding: 10px;
+    overflow: auto;
+}
+
+#footer
+{
+    clear: both;
+    background-color: #696969;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    bottom: 8px;
+    position: sticky;
+    font-size: 24px;
+    
+}
+
+#main
+{
+    top: 8px;
+    position: sticky;
+}
+
+#leftpanfel:hover
+{
+    border: 2px solid lightblue;
+}
